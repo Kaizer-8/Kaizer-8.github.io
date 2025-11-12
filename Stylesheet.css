@@ -7,13 +7,16 @@ body{
     place-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-gap: 5px;
+    grid-auto-rows: auto;
+    grid-gap: 3px;
 }
 
 .photo{
+    margin-top: 15px;
+    margin-bottom: 10px;
     width: 30%;
     height: 30%;
+    border-radius: 50%;
 }
 
 .hoofdtext{
@@ -27,22 +30,19 @@ body{
     flex-wrap: wrap;
     font-style: normal;
     font-size: medium;
-    text-align: left;
+    text-align: center;
 }
 
 .flexbox{
-    margin-top: 3%;
-    margin-right: 4%;
-    margin-left: 4%;
-    margin-bottom: 4%;
-    column-gap: 30px;
+    background-color:#00E6DD;
+    margin: 0px;
     display: flex;
     flex-direction: row-reverse;
 }
 
 .flexboxphoto{
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     width: 100%;
 }
 
@@ -52,4 +52,34 @@ body{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: 5px;
+}
+
+.headerbutton{
+    margin-top: 2%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+
+.projectphoto{
+    width: 450px;
+    height: 450px;
+}
+
+.projecttext{
+    flex-wrap: wrap;
+    font-size: medium;
+    text-align: left;
+    padding: 30px;
+}
+
+.socialstext{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: medium;
+    text-align: center;
+}
+html {
+  scroll-behavior: smooth;
 }
