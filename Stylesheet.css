@@ -40,10 +40,13 @@ section, p {
 
 .text{
     width: 1fr;
+    padding-top: 30px;
     flex-wrap: wrap;
     font-style: normal;
-    font-size: medium;
+    font-size:large;
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .flexbox{
